@@ -16,6 +16,7 @@ export default function Inicio(props) {
             <Navegador link="/jsx" nome="JSX"/>
             <Navegador link="/navegacao" nome="Navegação"/>
             <Navegador link="/cliente/Mage/123" nome="Naveção Dinâmica"/>
+            <Navegador link="/estado" nome="Estado"/>
         </div>
     )
 }
