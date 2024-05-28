@@ -1,5 +1,4 @@
 import Navegador from "@/components/Navegador";
-import Link from "next/link";
 
 export default function Inicio(props) {
     return (
@@ -16,6 +15,7 @@ export default function Inicio(props) {
             <Navegador link="/exemplo" nome="Exemplo"/>
             <Navegador link="/jsx" nome="JSX"/>
             <Navegador link="/navegacao" nome="Navegação"/>
+            <Navegador link="/cliente/Mage/123" nome="Naveção Dinâmica"/>
         </div>
     )
 }
