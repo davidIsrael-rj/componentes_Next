@@ -4,19 +4,25 @@ export default function Inicio(props) {
     return (
         <div style={{
             display: 'flex',
-            flexDirection:"column",
-            justifyContent: 'flex-start',
-            alignItems:'center',
+            flexDirection: "row",
+            justifyContent: 'center',
+            alignItems: 'center',
             flexWrap: 'wrap',
-            padding:"20px",
+            padding: "20px",
             height: '100vh'
         }}>
-            <Navegador link="/estiloso" nome="Estiloso"/>
-            <Navegador link="/exemplo" nome="Exemplo"/>
-            <Navegador link="/jsx" nome="JSX"/>
-            <Navegador link="/navegacao" nome="Navegação"/>
-            <Navegador link="/cliente/Mage/123" nome="Naveção Dinâmica"/>
-            <Navegador link="/estado" nome="Estado"/>
+            <div>
+                <Navegador link="/estiloso" nome="Estiloso" />
+                <Navegador link="/exemplo" nome="Exemplo" />
+                <Navegador link="/jsx" nome="JSX" />
+
+            </div>
+            <div>
+                <Navegador link="/navegacao" nome="Navegação" />
+                <Navegador link="/cliente/Mage/123" nome="Naveção Dinâmica" />
+                <Navegador link="/estado" nome="Estado" />
+
+            </div>
         </div>
     )
 }
