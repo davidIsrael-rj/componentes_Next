@@ -4,7 +4,7 @@ import styles from '@/styles/estado.module.css'
 import { useState } from "react";
 
 export default function Estado() {
-    
+
     const [num, setNum] = useState(0)
 
     function incrementar() {
@@ -13,8 +13,10 @@ export default function Estado() {
     return (
         <Layout titulo="Componente com Estado">
             <div className={styles.estado}>
-                <div>{num}</div>
-                <button onClick={incrementar}>Incrementar</button>
+                <div>
+                    <div>{num}</div>
+                    <button onClick={incrementar}>Incrementar</button>
+                </div>
             </div>
         </Layout>
     )
